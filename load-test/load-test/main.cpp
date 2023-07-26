@@ -5,7 +5,7 @@
 int main() {
     std::cout << "First load:\n";
     auto lib = LoadLibraryA("plugin.dll");
-    std::cout << "First free:\n";
+    std::cout << "First free:\n\n";
     FreeLibrary(lib);
 
     std::cout << "Second load\n";
